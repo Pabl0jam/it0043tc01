@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    background-image: url(idol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+    text-align: center;
+    margin-left: 150px;  
+    margin-left: 100px; 
+    font-weight: 100;
+    font-style: normal;
+}
+    
+    img{ 
+        width: 150px; 
+        height: 175px;
+        padding-right: 1300px;
+    }
+    .heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5.0rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    .subheading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+    .subbheading{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .subbbheading{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .red{
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    }
+    .reds{
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    

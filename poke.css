@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,28 +8,88 @@
 
 .container{
     width: 90vw;
-    border: 2px solid black;
-    padding: 20x;
+    padding: 20px;
     margin: 20px auto;
-    gap: 20px;
+    gap: 10px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;    
     background-image: url(d1paygs-5ae9ae2d-9f25-4d87-b17a-433c1772886a.jpg);
     background-size: cover;
 }
 
+h1{
+    display: none;
+
+}
+
+.type1{
+    display: none;
+}
+.type2{
+    display: none;
+}
+.type3{
+    display: none;
+}
+.type4{
+    display: none;
+}
+.type5{
+    display: none;
+}
+.type6{
+    display: none;
+}
+.type7{
+    display: none;
+}
+.type8{
+    display: none;
+}
+.type9{
+    display: none;
+}
+.type10{
+    display: none;
+}
+.type11{
+    display: none;
+}
+.type12{
+    display: none;
+}
+.type13{
+    display: none;
+}
+.type14{
+    display: none;
+}
+.type15{
+    display: none;
+}
+.type16{
+    display: none;
+}
+.type17{
+    display: none;
+}
+
 .box {width: 24%;
     padding: 20px;
     margin: 0px;
-    text-align: center;
+    flex-grow: 1;
+}
 
-    image{
-width: 100%;
-height: 100%;
+img{
+max-width: 100%;
+max-height: 100%;
 }   
 
+#i{
+    display: none;
 }
+
+
 #box1{
     background-color: khaki;
 }
@@ -65,56 +127,206 @@ height: 100%;
     background-color: peru;
 }
 
-@media(max-width: 4000px){
+@media(max-width: 560px){
+ 
+    .box {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+ }
+ 
+ img{
+    width: 25%;
+ }
+ h1{
+    display: inline-block;
+    padding-top: 50px;
+    font-family: Montserrat;
+    font-size: 25px;
+ }
 
-    .box {width: 24%;
-        padding: 20px;
-        margin: 0px;
+ #i{
+    max-width: 50px;
+    max-height: 80px;
+    padding-top: 50px;
+    display: inline-block;
+ }
+
+.box:hover{
+    background-image:url(x.png);
+}
+}
+
+@media(max-width: 335px){
+    .box {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+     }
+     
+     img{
+        width:70%;
+        padding-left: 70px;
+     }
+     h1{
+        display: inline-block;
+        padding-top: 50px;
+        font-family: Montserrat;
+        padding-bottom: 7px;
+        font-size: 25px;
         text-align: center;
+        padding-top: 10px;
+     }
 
-}
+     .type1{
+        padding: 3px 90px;
+        margin-right: 1px;
+        background-color: #9FA19F;
+        color: white;
+        border-radius: 5px;
+        display: inline-block;
+        }
 
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    color: solid black;
-}
+    .type2{
+            padding: 3px 90px;
+            margin-right: 1px;
+            background-color: #91A119;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+            }
 
-.box1:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
+    .type3{
+                padding: 3px 90px;
+                margin-right: 1px;
+                background-color: #9FA19F;
+                color: white;
+                border-radius: 5px;
+                display: inline-block;
+                }
 
-.box2:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box3:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box4:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box5:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box6:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box7:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box8:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box9:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box10:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box11:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
-.box12:hover{
-    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
-}
+    .type4{
+                    padding: 3px 90px;
+                    margin-right: 1px;
+                    background-color: #EF70EF;
+                    color: white;
+                    border-radius: 5px;
+                    display: inline-block;
+                    }
+    .type5{
+                        padding: 3px 90px;
+                        margin-right: 1px;
+                        background-color: #3FA129;
+                        color: white;
+                        border-radius: 5px;
+                        display: inline-block;
+                        }
+    .type6{
+                            padding: 3px 90px;
+                            margin-right: 1px;
+                            background-color: #9141CB;
+                            color: white;
+                            border-radius: 5px;
+                            display: inline-block;
+                            }
+    .type7{
+                                padding: 3px 90px;
+                                margin-right: 1px;
+                                background-color: #2980EF;
+                                color: white;
+                                border-radius: 5px;
+                                display: inline-block;
+                                }
+    .type8{
+                                    padding: 3px 90px;
+                                    margin-right: 1px;
+                                    background-color: #9141CB;
+                                    color: white;
+                                    border-radius: 5px;
+                                    display: inline-block;
+                                    }
+    .type9{
+                                        padding: 3px 90px;
+                                        margin-right: 1px;
+                                        background-color: #81B9EF;
+                                        color: white;
+                                        border-radius: 5px;
+                                        display: inline-block;
+                                        }
+    .type10{
+                                            padding: 3px 90px;
+                                            margin-right: 1px;
+                                            background-color: #9FA19F;
+                                            color: white;
+                                            border-radius: 5px;
+                                            display: inline-block;
+                                            }
 
+.type11{
+                                                padding: 3px 90px;
+                                                margin-right: 1px;
+                                                background-color: #5060E1;
+                                                color: white;
+                                                border-radius: 5px;
+                                                display: inline-block;
+                                                }
+.type12{
+                                                    padding: 3px 90px;
+                                                    margin-right: 1px;
+                                                    background-color: #9FA19F;
+                                                    color: white;
+                                                    border-radius: 5px;
+                                                    display: inline-block;
+                                                    }
+.type13{
+                                                        padding: 3px 90px;
+                                                        margin-right: 1px;
+                                                        background-color: #2980EF;
+                                                        color: white;
+                                                        border-radius: 5px;
+                                                        display: inline-block;
+                                                        }
+.type14{
+                                                            padding: 3px 90px;
+                                                            margin-right: 1px;
+                                                            background-color: #91A119;
+                                                            color: white;
+                                                            border-radius: 5px;
+                                                            display: inline-block;
+                                                            }
+.type15{
+                                                                padding: 3px 90px;
+                                                                margin-right: 1px;
+                                                                background-color: #9141CB;
+                                                                color: white;
+                                                                border-radius: 5px;
+                                                                display: inline-block;
+                                                                }
+.type16{
+                                                                    padding: 3px 90px;
+                                                                    margin-right: 1px;
+                                                                    background-color: #FAC000;
+                                                                    color: white;
+                                                                    border-radius: 5px;
+                                                                    display: inline-block;
+                                                                    }
+.type17{
+                                                                        padding: 3px 90px;
+                                                                        margin-right: 1px;
+                                                                        background-color: #EF4179;
+                                                                        color: white;
+                                                                        border-radius: 5px;
+                                                                        display: inline-block;
+                                                                        }
+                                                                        
+
+     
+    #i{
+        display: none;
+    }
+
+    .box:hover{
+        background-image:url(x.png);
+    }
+}

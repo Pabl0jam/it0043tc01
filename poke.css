@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90vw;
+    border: 2px solid black;
+    padding: 20x;
+    margin: 20px auto;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    background-image: url(d1paygs-5ae9ae2d-9f25-4d87-b17a-433c1772886a.jpg);
+    background-size: cover;
+}
+
+.box {width: 24%;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+
+    image{
+width: 100%;
+height: 100%;
+}   
+
+}
+#box1{
+    background-color: khaki;
+}
+#box2{
+    background-color: lawngreen;
+}
+#box3{
+    background-color: palevioletred;
+}
+#box4{
+    background-color: green;
+}
+#box5{
+    background-color: darkorange;
+}
+#box6{
+    background-color: mediumslateblue;
+}
+#box7{
+    background-color: burlywood;
+}
+#box8{
+    background-color: aqua;
+}
+#box9{
+    background-color: darkkhaki;
+}
+#box10{
+    background-color: bisque;
+}
+#box11{
+    background-color: yellow;
+}
+#box12{
+    background-color: peru;
+}
+
+@media(max-width: 4000px){
+
+    .box {width: 24%;
+        padding: 20px;
+        margin: 0px;
+        text-align: center;
+
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: solid black;
+}
+
+.box1:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+
+.box2:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box3:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box4:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box5:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box6:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box7:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box8:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box9:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box10:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box11:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+.box12:hover{
+    background-image:url(comic-pop-art-blue-background-with-thunder-flash_530597-1796.png);
+}
+
